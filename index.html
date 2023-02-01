@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Anvita Pandit</title>
+    <!-- meta -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- styles -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="style/index.css" rel="stylesheet" type="text/css" />
+
+    <title>Anvita Pandit</title>
+
 </head>
+
 <body>
 
-<style>
-.thumbnail {
-  font: 15px/1.5 Verdana, Helvetica, sans-serif;
-  float: left;  
-  margin:  2% 2% 10px 2%; 
-}
+    <section class="center-600" id="intro">
 
-.img {
-  width: 400px;
-  height:350px;
-}
+        <nav class="nav-effect fade-in-on-load" style="text-align: center">
+            <a href="https://excursions.substack.com">Writing</a>
+        </nav>
 
-.a {
-  font: 15px/1.5 Verdana, Helvetica, sans-serif;
-
-}
-#parent {
-    width: 1000px;
-}
-
-</style>
-
-<div>
-    <a href='http://gebgeekery.tumblr.com/'>blog</a>
-    <a href='http://github.com/panditanvita'>github</a>
-</div>
-
-<script type="text/javascript">
-	
+        <img id="me-img" class="fade-in-on-load" src="assets/me.jpg" />
 
 
-</script>
+        <p class="me-intro">
+            Hi, I'm Anvita. This is my site for visual art and photography. I'm always looking for creative writing workshop partners and fusion dance partners. Based out of my beloved Cambridge-Somerville, MA. <br/><br/>
+
+            Currently, I'm a senior software engineer at Google Cambridge, working on a monitoring system for instrumenting cryptographic usage in <a href="https://developers.google.com/tink">Tink</a>. <br/><br/>
+        </p>
+        <div class="text-shader-1"></div>
+
+    </section>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(() => $(".text-shader-1").addClass("text-shader-active"));
+    </script>
 
 </body>
+
 </html>
+
