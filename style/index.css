@@ -36,6 +36,12 @@ body {
    -webkit-transition: opacity 1s;
 } #me-img:hover { opacity: 1; }
 
+
+.crop img {
+   width: 730px;
+   margin: 0 -75px 0 0px;
+}
+
 a {
     text-decoration: none;
     color: #9A4A4A;
